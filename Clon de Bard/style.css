@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+  top: 0px;
+  margin: 0px;
+  color: #cf5a16;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: grid;
+  background-color: #302e2e;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 10px 30px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 13% 87%;
+}
+
+.asidebox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 20px;
+  width: 300px;
+}
+
+section {
+  border-radius: 30px;
+  margin: 22px 30px 22px 150px;
+  background-color: white;
+  height: 800px;
+}
+section #container {
+  display: grid;
+  grid-template-columns: 5% 95%;
+  margin: 20px 13px 20px 13px;
+  background-color: #503FD9;
+  border-radius: 18px;
+}
+
+.inf-bard {
+  margin: 20px;
+}
+
+#prompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+#prompt input {
+  border-radius: 20px;
+}
+
+#logo-bard-chat {
+  width: 80x;
+  height: 37px;
+}
+
+.logos {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  height: 50px;
+}
+
+#perfil {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 40px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+#menu:hover {
+  background-color: #854b2a;
+}
+
+#option {
+  padding: 9px;
+}
+
+#option:hover {
+  background-color: #854b2a;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */

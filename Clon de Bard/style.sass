@@ -1,0 +1,96 @@
+$ColorLetras: #cf5a16
+$ColorFondo: #302e2e
+$ColorContenedorChat: #503FD9
+$ColorCajasChat: #4A6BF8
+$colorhover:#854b2a
+
+
+*
+    box-sizing: border-box
+    font-size: 20px
+    top: 0px
+    margin: 0px
+    color: $ColorLetras
+    font-family: 'Roboto', sans-serif
+
+body
+    display: grid
+    background-color: $ColorFondo
+
+nav
+    display: flex
+    justify-content: space-between
+    padding: 10px 30px 10px 30px 
+
+main
+    display: grid
+    grid-template-columns: 13% 87%
+
+.asidebox
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    gap:15px
+    margin: 20px
+    width: 300px
+
+section
+    border-radius: 30px
+    margin: 22px 30px 22px 150px
+    background-color: white
+    height: 800px
+    #container
+        display: grid
+        grid-template-columns: 5% 95%
+        margin: 20px 13px 20px 13px
+        background-color: $ColorContenedorChat
+        border-radius: 18px
+
+.inf-bard
+    margin: 20px
+
+#prompt
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 25px
+    input
+        border-radius: 20px
+
+
+#logo-bard-chat
+    width: 80x
+    height:37px
+
+.logos
+    display: flex
+    gap: 10px
+    justify-content: space-between
+    align-items: center
+    width: 90px
+    height: 50px
+
+#perfil
+    border-radius: 50%
+    height:40px 
+    width:40px
+
+#menu
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 20px
+    width: 40px
+    height: 25px
+    border-radius:50% 
+
+#menu:hover
+    background-color: $colorhover
+
+#option
+    padding: 9px
+
+#option:hover
+    background-color: $colorhover
+    border-radius: 50%
+    
