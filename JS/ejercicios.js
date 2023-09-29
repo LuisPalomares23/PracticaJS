@@ -26,9 +26,8 @@ for(persona of personas){
     console.log(`Mi nombre es ${persona.nombre} y vivo en ${persona.ciudad} `)
 }
 
-
 //3) Crea un programa que elija una palabra al azar de una lista predefinida y le pida al usuario que adivine la palabra letra por letra. Utilizar bucle "DO WHILE", para continuar solicitando letras hasta que el usuario adivine la palabra o haya cometido un numero maximo de intentos. (Investigar Math.random).
-
+|
 //4) Crea una clase llamada "Persona" que tenga un constructor que reciba dos parámetros (nombre y edad). La clase debe tener un método "saludar" y que imprima un mensaje de saludo con el nombre y la edad de la persona. 
 
 //5) Crea una clase llamada "Estudiante" que herede de la clase "Persona" del ejercicio anterior. La clase "Estudiante" debe tener un constructor adicional que reciba un parametro (curso). Agregar un metodo "presentar" a la clase "Estudiante" que incluya la información del nombre,edad y curso.
